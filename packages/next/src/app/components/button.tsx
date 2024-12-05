@@ -1,5 +1,4 @@
 "use client";
-import "@root-axis/design-system";
 import { useRouter } from "next/navigation";
 
 export default function Button({
@@ -12,6 +11,9 @@ export default function Button({
   href: string;
   type: "primary" | "secondary" | "tertiary";
 }) {
+  if (typeof window !== "undefined") {
+    import("@root-axis/design-system");
+  }
   const router = useRouter();
 
   return (
