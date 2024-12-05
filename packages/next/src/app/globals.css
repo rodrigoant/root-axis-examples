@@ -1,0 +1,30 @@
+@import "@root-axis/design-tokens";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: var(--color-neutral-100);
+  --foreground: var(--color-neutral-950);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: var(--color-neutral-950);
+    --foreground: var(--color-neutral-100);
+  }
+  code {
+    background-color: var(--color-neutral-300);
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+code {
+  color: var(--background);
+  background: var(--foreground);
+}
