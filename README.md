@@ -24,11 +24,6 @@ This repository contains examples of how to use the Root Axis Design System with
 - [Repo]()
 - [Example]()
 
-### Qwik
-
-- [Repo]()
-- [Example]()
-
 ### Solid
 
 - [Repo]()
