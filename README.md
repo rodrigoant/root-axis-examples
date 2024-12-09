@@ -2,14 +2,39 @@
 
 This repository contains examples of how to use the Root Axis Design System with various frameworks.
 
-### Examples
+## Examples
 
-React
+### React
 
-- [Repo - https://github.com/rodrigoant/root-axis-examples/tree/main/packages/react](https://github.com/rodrigoant/root-axis-examples/tree/main/packages/react)
-- [Example - https://root-axis-react.vercel.app](https://root-axis-react.vercel.app)
+- [Repo](https://github.com/rodrigoant/root-axis-examples/tree/main/packages/react)
+- [Example](https://root-axis-react.vercel.app)
 
-Next.js 14
+### Next.js 14
 
-- [Repo - https://github.com/rodrigoant/root-axis-examples/tree/main/packages/next](https://github.com/rodrigoant/root-axis-examples/tree/main/packages/next)
-- [Example - https://root-axis-next.vercel.app](https://root-axis-next.vercel.app/)
+- [Repo](https://github.com/rodrigoant/root-axis-examples/tree/main/packages/next)
+- [Example](https://root-axis-next.vercel.app/)
+
+### Vue
+
+- [Repo]()
+- [Example]()
+
+### Angular
+
+- [Repo]()
+- [Example]()
+
+### Qwik
+
+- [Repo]()
+- [Example]()
+
+### Solid
+
+- [Repo]()
+- [Example]()
+
+### Svelte
+
+- [Repo]()
+- [Example]()
