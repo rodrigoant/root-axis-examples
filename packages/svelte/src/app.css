@@ -1,3 +1,5 @@
+@import "@root-axis/design-tokens";
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -35,15 +37,24 @@ h1 {
   line-height: 1.1;
 }
 
+.header {
+  text-align: center;
+}
+
 .card {
   padding: 2em;
+  display: flex;
+  justify-content: center;
+}
+
+ra-button {
+  margin-inline: auto;
 }
 
 #app {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
 }
 
 button {
@@ -63,6 +74,13 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+.accordions {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin-inline: auto;
 }
 
 @media (prefers-color-scheme: light) {

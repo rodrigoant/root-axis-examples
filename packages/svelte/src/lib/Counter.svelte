@@ -5,6 +5,6 @@
   }
 </script>
 
-<button onclick={increment}>
+<ra-button onclick={increment}>
   count is {count}
-</button>
+</ra-button>
