@@ -16,20 +16,15 @@ This repository contains examples of how to use the Root Axis Design System with
 
 ### Vue
 
-- [Repo]()
-- [Example]()
-
-### Angular
-
-- [Repo]()
-- [Example]()
+- [Repo](https://github.com/rodrigoant/root-axis-examples/tree/main/packages/vue)
+- [Example](https://root-axis-vue.vercel.app/)
 
 ### Solid
 
-- [Repo]()
-- [Example]()
+- [Repo](https://github.com/rodrigoant/root-axis-examples/tree/main/packages/solid)
+- [Example](https://root-axis-solid.vercel.app/)
 
 ### Svelte
 
-- [Repo]()
-- [Example]()
+- [Repo](https://github.com/rodrigoant/root-axis-examples/tree/main/packages/svelte)
+- [Example](https://root-axis-svelte.vercel.app/)

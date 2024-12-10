@@ -23,16 +23,16 @@ function App() {
       </div>
       <h1>Vite + React + Root Axis</h1>
       <div className="card">
+
         <ra-button dark onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </ra-button>
-
-        
 
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
       </div>
+
       <ra-accordion dark>
         <span slot="summary">Is it accessible?</span>
         Yes. 
@@ -45,7 +45,6 @@ function App() {
         <span slot="summary">Is it animated?</span>
         Yes. It&lsquo;s animated by default
       </ra-accordion>
-
 
     </>
   );
