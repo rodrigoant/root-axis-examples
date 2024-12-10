@@ -1,7 +1,12 @@
+@import "@root-axis/design-tokens";
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
+}
+
+.header {
   text-align: center;
 }
 
@@ -20,8 +25,14 @@
 
 .card {
   padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.read-the-docs {
-  color: #888;
+.accordions {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin-inline: auto;
 }
