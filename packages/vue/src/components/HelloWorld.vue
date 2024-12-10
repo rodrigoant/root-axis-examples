@@ -10,28 +10,29 @@ const count = ref(0)
   <h1>{{ msg }}</h1>
 
   <div class="card">
-    <button type="button" @click="count++">count is {{ count }}</button>
+
+    <ra-button type="primary" @click="count++">count is {{ count }}</ra-button>
+
     <p>
       Edit
       <code>components/HelloWorld.vue</code> to test HMR
     </p>
   </div>
 
-  <p>
-    Check out
-    <a href="https://vuejs.org/guide/quick-start.html#local" target="_blank"
-      >create-vue</a
-    >, the official Vue + Vite starter
-  </p>
-  <p>
-    Learn more about IDE Support for Vue in the
-    <a
-      href="https://vuejs.org/guide/scaling-up/tooling.html#ide-support"
-      target="_blank"
-      >Vue Docs Scaling up Guide</a
-    >.
-  </p>
-  <p class="read-the-docs">Click on the Vite and Vue logos to learn more</p>
+  <div class="accordions">
+    <ra-accordion dark>
+      <span slot="summary">Is it accessible?</span>
+      Yes. 
+    </ra-accordion>
+    <ra-accordion dark>
+      <span slot="summary">Is it styled?</span>
+      Yes. It comes with default styles that matches the other components aesthetic.
+    </ra-accordion>
+    <ra-accordion dark>
+      <span slot="summary">Is it animated?</span>
+      Yes. It&lsquo;s animated by default
+    </ra-accordion>
+  </div>
 </template>
 
 <style scoped>
