@@ -23,16 +23,30 @@ function App() {
       </div>
       <h1>Vite + React + Root Axis</h1>
       <div className="card">
-        <ra-button size="medium" onClick={() => setCount((count) => count + 1)}>
+        <ra-button dark onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </ra-button>
+
+        
+
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite, React and Root Axis logos to learn more
-      </p>
+      <ra-accordion dark>
+        <span slot="summary">Is it accessible?</span>
+        Yes. 
+      </ra-accordion>
+      <ra-accordion dark>
+        <span slot="summary">Is it styled?</span>
+        Yes. It comes with default styles that matches the other components aesthetic.
+      </ra-accordion>
+      <ra-accordion dark>
+        <span slot="summary">Is it animated?</span>
+        Yes. It&lsquo;s animated by default
+      </ra-accordion>
+
+
     </>
   );
 }

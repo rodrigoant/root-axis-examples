@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import Button from "./components/button";
+import ClientComponents from "./components/clientComponents";
 
 export default function Home() {
   return (
@@ -36,22 +36,8 @@ export default function Home() {
           <li>Save and see your changes instantly.</li>
         </ol>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <Button
-            type="tertiary"
-            href="https://storybook.rodrigoantunes.dev/?path=/docs/design-system--docs"
-          >
-            Storybook
-          </Button>
-          <Button
-            type="primary"
-            href="https://design-system.rodrigoantunes.dev/introduction"
-          >
-            Read our docs
-          </Button>
-          <Button type="primary" href="https://www.npmjs.com/org/root-axis">
-            NPM
-          </Button>
+        <div className="flex gap-4 w-full flex-col sm:flex-row">
+          <ClientComponents />
         </div>
       </main>
     </div>
