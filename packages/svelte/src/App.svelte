@@ -2,6 +2,7 @@
   import svelteLogo from "./assets/svelte.svg";
   import viteLogo from "/vite.svg";
   import rootAxisLogo from "/root-axis.svg";
+  import "@root-axis/design-system";
 
   let count: number = $state(0);
   const increment = () => {
