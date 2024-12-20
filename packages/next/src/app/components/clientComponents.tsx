@@ -10,7 +10,7 @@ export default function ClientComponents() {
 
   return (
     <div className="w-[400px]">
-      <div className="flex gap-4 mb-6">
+      <div className="flex gap-4 mb-10">
         <ra-button
           onClick={() => router.push("https://storybook.rodrigoantunes.dev/")}
           size="medium"
