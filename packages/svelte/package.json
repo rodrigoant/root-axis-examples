@@ -10,7 +10,7 @@
     "check": "svelte-check --tsconfig ./tsconfig.json && tsc -p tsconfig.node.json"
   },
   "dependencies": {
-    "@root-axis/design-system": "^0.0.15"
+    "@root-axis/design-system": "^0.0.17"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^5.0.0",

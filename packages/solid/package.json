@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@root-axis/design-system": "^0.0.15",
+    "@root-axis/design-system": "^0.0.17",
     "solid-js": "^1.9.3"
   },
   "devDependencies": {

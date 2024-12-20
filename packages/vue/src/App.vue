@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from "./components/HelloWorld.vue";
 </script>
 
 <template>
@@ -10,8 +10,12 @@ import HelloWorld from './components/HelloWorld.vue'
     <a href="https://vuejs.org/" target="_blank">
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/root-axis.svg" class="logo root-axis" alt="Root Axis logo" />
+    <a href="https://design-system.rodrigoantunes.dev/" target="_blank">
+      <img
+        src="./assets/root-axis.svg"
+        class="logo root-axis"
+        alt="Root Axis logo"
+      />
     </a>
   </div>
   <HelloWorld msg="Vite + Vue" />

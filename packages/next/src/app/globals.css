@@ -29,3 +29,7 @@ code {
   color: var(--foreground);
   background: var(--background);
 }
+
+ra-accordion {
+  border-bottom-width: 1px;
+}
