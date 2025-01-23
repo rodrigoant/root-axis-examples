@@ -20,7 +20,7 @@ function App() {
         <a href="https://design-system.rodrigoantunes.dev" target="_blank">
           <img src={rootAxisLogo} class="logo root-axis" alt="Root Axis logo" />
         </a>
-        <h1>Vite + Solid</h1>
+        <h1>Vite + Solid + Root Axis</h1>
       </div>
       <div class="card">
         <ra-button dark onClick={() => setCount((count) => count + 1)}>

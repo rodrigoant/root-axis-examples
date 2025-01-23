@@ -1,17 +1,18 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref } from "vue";
 
-defineProps<{ msg: string }>()
+defineProps<{ msg: string }>();
 
-const count = ref(0)
+const count = ref(0);
 </script>
 
 <template>
   <h1>{{ msg }}</h1>
 
   <div class="card">
-
-    <ra-button type="primary" @click="count++">count is {{ count }}</ra-button>
+    <ra-button dark type="primary" @click="count++"
+      >count is {{ count }}</ra-button
+    >
 
     <p>
       Edit
@@ -22,11 +23,12 @@ const count = ref(0)
   <div class="accordions">
     <ra-accordion dark>
       <span slot="summary">Is it accessible?</span>
-      Yes. 
+      Yes.
     </ra-accordion>
     <ra-accordion dark>
       <span slot="summary">Is it styled?</span>
-      Yes. It comes with default styles that matches the other components aesthetic.
+      Yes. It comes with default styles that matches the other components
+      aesthetic.
     </ra-accordion>
     <ra-accordion dark>
       <span slot="summary">Is it animated?</span>

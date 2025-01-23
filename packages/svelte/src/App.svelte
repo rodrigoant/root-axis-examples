@@ -25,22 +25,16 @@
     >
       <img src={rootAxisLogo} class="logo root axis" alt="Root Axis Logo" />
     </a>
-    <h1>Vite + Svelte</h1>
+    <h1>Vite + Svelte + Root Axis</h1>
   </div>
 
   <div class="card">
-    <ra-button onclick={increment}>
+    <ra-button dark onclick={increment}>
       count is {count}
     </ra-button>
-  </div>
 
-  <p>
-    Check out <a
-      href="https://github.com/sveltejs/kit#readme"
-      target="_blank"
-      rel="noreferrer">SvelteKit</a
-    >, the official Svelte app framework powered by Vite!
-  </p>
+    <p>Edit <code>src/App.svelte</code> and save to test HMR</p>
+  </div>
 
   <div class="accordions">
     <ra-accordion dark>

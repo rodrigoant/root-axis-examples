@@ -34,9 +34,17 @@ body {
 
 .header {
   text-align: center;
+  
+  & h1 {
+    margin-top: 12px;
+    margin-bottom: 48px;
+  }
 }
 
 .card {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  margin-bottom: 28px;
 }
